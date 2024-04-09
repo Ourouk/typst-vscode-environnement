@@ -7,6 +7,14 @@
 		"context": "..",
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "../dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"nvarner.typst-lsp",
+				"mgt19937.typst-preview"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
